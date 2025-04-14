@@ -12,11 +12,7 @@ function AddBtn({ setIsAddGoalShowing }) {
       </div>
 
       <button className="bg-pink-500 rounded-full w-14 h-14 flex items-center justify-center shadow-lg cursor-pointer ">
-        <img
-          src="/src/assets/add-btn.svg"
-          alt="plus Icon"
-          className="w-12 h-12"
-        />
+        <img src="./assets/add-btn.svg" alt="plus Icon" className="w-12 h-12" />
       </button>
     </div>
   );
