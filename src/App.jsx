@@ -3,7 +3,6 @@ import GoalListLayout from "./components/GoalListLayout";
 import { useState } from "react";
 import ProgressTimer from "./components/ProgressTimer";
 import { useLocalStorage } from "./customHooks/useLocalStorage";
-import StreakCalendar from "./components/StreakCalender";
 import Statistics from "./components/Statistics";
 import StatisticsHeaderNav from "./components/statisticsHeaderNav";
 import StatisticsMainBody from "./components/stattisticsMainBody";
@@ -42,7 +41,7 @@ function App() {
   return (
     <div className="md:max-h-screen">
       {activeScreen === "home" && (
-        <div className="w-full md:hidden bg-white pt-[0.2px]">
+        <div className={`w-full md:hidden p-[0.2px]`}>
           <Home
             onActiveScreen={setActiveScreen}
             onGoalList={setGoalList}
@@ -71,7 +70,7 @@ function App() {
       )}
 
       {activeScreen === "stats" && (
-        <div className="w-full md:hidden *:bg-white">
+        <div className="w-full md:hidden bg-white p-[0.2px]">
           <StatsScreen
             streakDays={streakDays}
             goalList={goalList}
