@@ -26,7 +26,7 @@ function Item({
           {/* dummy use of motion to avoid errors being thrown */}
           {console.log(typeof motion)}
           <img
-            src="/src/assets/delete-icon.svg"
+            src="/assets/delete-icon.svg"
             alt="Delete Icon"
             className="w-8 h-8"
           />

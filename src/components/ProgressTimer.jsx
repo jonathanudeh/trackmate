@@ -177,7 +177,7 @@ function ProgressTimer({
             className="cursor-pointer  h-10 flex items-center justify-center"
             onClick={() => handleExit()}
           >
-            <img src="/src/assets/arrow-back.svg" alt="Back arrow" />
+            <img src="/assets/arrow-back.svg" alt="Back arrow" />
           </button>
           <h2 className=" text-3xl font-bold text-blue-900 mx-auto">
             {goalToDisplay?.description}

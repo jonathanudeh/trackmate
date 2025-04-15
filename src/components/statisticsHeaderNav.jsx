@@ -59,7 +59,7 @@ function StatisticsHeaderNav({
           className="cursor-pointer"
           onClick={() => onActiveScreen("home")}
         >
-          <img src="/src/assets/arrow-back.svg" />
+          <img src="/assets/arrow-back.svg" />
         </button>
 
         <p className="text-2xl text-center md:hidden mx-auto">

@@ -41,8 +41,8 @@ function HeaderNavigation({
   );
 
   return (
-    <div className="w-full bg-pink-600 md:bg-transparent h-[35vh] md:h-65 pb-0 text-white px-5 flex flex-col justify-center gap-5 md:flex-col-reverse">
-      <div className=" relative flex items-center justify-center w-full px-4  md:h-10">
+    <div className="w-full bg-pink-600 md:bg-transparent min-h-[35vh] md:h-65 pb-0 text-white px-5 flex flex-col justify-center gap-5 md:flex-col-reverse">
+      <div className="relative flex items-center justify-center w-full px-4 md:h-10">
         <p className="text-2xl text-center md:text-xs md:hidden mx-auto w-full">
           {header}
         </p>

@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="md:max-h-screen">
       {activeScreen === "home" && (
-        <div className="w-full md:hidden">
+        <div className="w-full md:hidden bg-white pt-[0.2px]">
           <Home
             onActiveScreen={setActiveScreen}
             onGoalList={setGoalList}
@@ -55,6 +55,7 @@ function App() {
           />
         </div>
       )}
+
       {activeScreen === "progress" && (
         <div className="w-full md:hidden">
           <ProgressScreen
@@ -70,7 +71,7 @@ function App() {
       )}
 
       {activeScreen === "stats" && (
-        <div className="w-full md:hidden">
+        <div className="w-full md:hidden *:bg-white">
           <StatsScreen
             streakDays={streakDays}
             goalList={goalList}
@@ -170,7 +171,7 @@ function Home({
   streak,
 }) {
   return (
-    <div className="relative">
+    <div className="relative bg-white">
       <HeaderNavigation
         header="Welcome!"
         message="My goal list"
@@ -226,7 +227,7 @@ function StatsScreen({
   onActiveScreen,
 }) {
   return (
-    <div className="md:max-h-screen ">
+    <div className="md:max-h-screen">
       <StatisticsHeaderNav
         header={["Year ", "Month ", "Today "]}
         frequencyDisplay={frequencyDisplay}
