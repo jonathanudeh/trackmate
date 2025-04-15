@@ -236,7 +236,7 @@ function ProgressTimer({
         ))}
 
         <button
-          className="absolute right-10 bottom-10 text-white cursor-pointer font-bold text-3xl border-[1px] drop-shadow-lg  shadow-2xl rounded-lg w-20 h-20"
+          className="absolute right-10 bottom-10 text-white cursor-pointer font-bold text-3xl border-[1px] border-gray-300/20 drop-shadow-2xl  shadow-2xl rounded-lg w-20 h-20"
           onClick={() => onActiveScreen("stats")}
         >
           <span>🔥</span>

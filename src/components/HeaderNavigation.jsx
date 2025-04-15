@@ -47,7 +47,7 @@ function HeaderNavigation({
           {header}
         </p>
         <span
-          className="absolute top-0 right-0 w-15 h-15 flex items-center justify-center   font-bold text-xl  md:left-1/2 md:translate-y-1/2 md:-translate-x-1/2  cursor-pointer border-[1px] drop-shadow-lg  shadow-2xl rounded-lg md:w-20 md:h-20"
+          className="absolute top-0 right-0 w-15 h-15 flex items-center justify-center   font-bold text-xl  md:left-1/2 md:translate-y-1/2 md:-translate-x-1/2  cursor-pointer border-[1px] border-gray-300/20 drop-shadow-2xl  shadow-2xl rounded-lg md:w-20 md:h-20"
           onClick={() => onActiveScreen("stats")}
         >
           🔥
