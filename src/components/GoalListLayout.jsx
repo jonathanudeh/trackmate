@@ -95,7 +95,10 @@ function GoalListLayout({
         {formattedDate}
       </h1>
 
-      <ul className="w-full mt-4 space-y-4 flex-grow md:overflow-y-scroll">
+      <ul
+        className="w-full mt-4 space-y-4 flex-grow md:overflow-y-scroll "
+        style={{ scrollbarWidth: "none" }}
+      >
         <AnimatePresence>
           {goalListByFrequency.map((goal) => (
             <List

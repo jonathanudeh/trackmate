@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { AnimatePresence } from "framer-motion";
 import Item from "../smallerComponents/Item";
 import LongPressFunctionalities from "../smallerComponents/LongPressFunctionalities";
 
